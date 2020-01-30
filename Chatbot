@@ -196,13 +196,13 @@ public class chatbot {
 			    	      g.setColor(Color.orange);
 			    	      g.drawString("Education: " + esum + " spent (" +(int)(((double) esum/total)*100) + "%)", 420, 280);
 			    	      g.setColor(Color.pink);
-			    	      g.drawString("Beauty: " + bsum + " spent (" +(int)(((double) esum/total)*100) + "%)", 420, 300); 
+			    	      g.drawString("Beauty: " + bsum + " spent (" +(int)(((double) bsum/total)*100) + "%)", 420, 300); 
 			    	      g.setColor(Color.red);
-			    	      g.drawString("Health: " + hsum + " spent (" +(int)(((double) tsum/total)*100) + "%)", 420, 320);
+			    	      g.drawString("Health: " + hsum + " spent (" +(int)(((double) hsum/total)*100) + "%)", 420, 320);
 			    	      g.setColor(Color.gray);
-			    	      g.drawString("Necessities: " + nsum + " spent (" +(int)(((double) tsum/total)*100) + "%)", 420, 340);
+			    	      g.drawString("Necessities: " + nsum + " spent (" +(int)(((double) nsum/total)*100) + "%)", 420, 340);
 			    	      g.setColor(Color.white);
-			    	      g.drawString("Other: " + osum + " spent (" +(int)(((double) tsum/total)*100) + "%)", 420, 360);
+			    	      g.drawString("Other: " + osum + " spent (" +(int)(((double) osum/total)*100) + "%)", 420, 360);
 			    	      				
 			}
 	    };		
@@ -534,5 +534,6 @@ public class chatbot {
 	}
 
 		
+	}
 	}
 	
