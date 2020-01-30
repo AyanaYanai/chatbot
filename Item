@@ -1,0 +1,56 @@
+import java.awt.Color;
+
+public class Item {
+	public String name;
+	public int category;
+	public int price;
+	public Color color;
+	public Item(int index, String namae, int precio) {
+		category = index;
+		name = namae;
+		price = precio;
+		if(category == 0) {
+			color=Color.green;
+		}
+		if(category ==1) {
+			color = Color.magenta;
+		}
+		if(category ==2) {
+			color = Color.yellow;
+		}
+		if(category ==3) {
+			color = Color.blue;
+		}
+		if(category ==4) {
+			color = Color.orange;
+		}
+		if(category ==5) {
+			color = Color.pink;
+		}
+		if(category ==6) {
+			color = Color.red;
+		}
+		if(category ==7) {
+			color = Color.white;
+		}
+		if(category ==8) {
+			color = Color.gray;
+		}
+	}
+	
+	public int getPrice() {
+		return price;
+	}
+	
+	public int getCate() {
+		return category;
+	}
+	
+	public String getName() {
+		return name;
+	}
+	
+	public Color getColor() {
+		return color;
+	}
+}
